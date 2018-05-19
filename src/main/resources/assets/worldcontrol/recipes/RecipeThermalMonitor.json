@@ -21,7 +21,7 @@
     "A": [
       {
 		"type": "forge:ore_dict",
-        "ore": "circuitAdvanced"
+        "ore": "circuitBasic"
       }
     ]
   },
