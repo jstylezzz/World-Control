@@ -1,6 +1,13 @@
-
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
+  "group": "worldcontrol:ic2_reactor_monitor",
+  "conditions": 
+  [
+	{
+		"type": "minecraft:item_exists",
+		"item": "worldcontrol:ic2_reactor_monitor"
+	}
+  ],
   "pattern": [
     "PPP",
     "PAP",
@@ -8,13 +15,13 @@
   ],
   "key": {
     "P": {
-      "item": "ic2:plate",
-	  "data": 3
+	  "type": "forge:ore_dict",
+      "ore": "plateIron"
     },
     "A": [
       {
-        "item": "ic2:crafting",
-		"data": 2
+		"type": "forge:ore_dict",
+        "ore": "circuitAdvanced"
       }
     ]
   },
