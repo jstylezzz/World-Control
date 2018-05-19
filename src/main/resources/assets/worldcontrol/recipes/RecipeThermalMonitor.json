@@ -1,0 +1,25 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PAP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "ic2:plate",
+	  "data": 3
+    },
+    "A": [
+      {
+        "item": "ic2:crafting",
+		"data": 2
+      }
+    ]
+  },
+  "result": {
+    "item": "worldcontrol:ic2_reactor_monitor",
+    "data": 0
+  }
+}
