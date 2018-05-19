@@ -1,0 +1,38 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "worldcontrol:howler_alarm",
+  "conditions": 
+  [
+	{
+		"type": "minecraft:item_exists",
+		"item": "worldcontrol:howler_alarm"
+	}
+  ],
+  "pattern": [
+    "   ",
+    "INI",
+    "RRR"
+  ],
+  "key": 
+  {
+    "R":
+	{
+	  "type": "forge:ore_dict",
+      "ore": "alloyBasic"
+    },
+	"N":
+	{
+	  "item": "minecraft:noteblock",
+      "data": 0
+    },
+    "I": 
+	{
+		"type": "forge:ore_dict",
+		"ore": "ingotIron"
+	}
+  },
+  "result": {
+    "item": "worldcontrol:howler_alarm",
+    "data": 0
+  }
+}
